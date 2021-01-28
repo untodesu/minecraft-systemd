@@ -20,9 +20,9 @@ sudo mkdir -p /srv/minecraft/screen/
 ```
 #### Copying files
 Only two files are required to be copied at their destinations:
-1. **minecraft@.service** should be copied to _/etc/systemd/system/_
-2. **service.sh** should be copied to _/srv/minecraft/_
-3. **environment.conf** may be copied to _/srv/minecraft/servername/_
+1. `minecraft@.service` should be copied to _/etc/systemd/system/_
+2. `service.sh` should be copied to _/srv/minecraft/_
+3. `environment.conf` may be copied to _/srv/minecraft/servername/_
 
 **NOTE:** the _service.sh_ script must also be executable:
 ```bash
