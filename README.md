@@ -29,12 +29,12 @@ Only two files are required to be copied at their destinations:
 sudo chmod +x /srv/minecraft/service.sh
 ```
 #### Creating a new server
-The server jar may be vanilla server or patched one - the script literally doesn't care about it. But the jar itself must be named as _/srv/minecraft/servername/server.jar_
 1. Create a new directory
    ```bash
    sudo mkdir -p /opt/minecraft/servername/
    ```
-2. Copy the server jar to it
+2. Copy the server jar to it.  
+   The server jar may be vanilla server or patched one - the script literally doesn't care about it. But the jar itself must be named as _/srv/minecraft/servername/server.jar_
    ```bash
    sudo cp whatever.jar /opt/minecraft/servername/server.jar
    ```
