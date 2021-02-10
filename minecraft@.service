@@ -19,6 +19,7 @@ ReadWritePaths=/srv/minecraft
 
 Environment="MINECRAFT_XMS=512M"
 Environment="MINECRAFT_XMX=1024M"
+Environment="MINECRAFT_JAR=server.jar"
 Environment="SCREENDIR=/srv/minecraft/screen"
 EnvironmentFile=-/srv/minecraft/%i/environment.conf
 

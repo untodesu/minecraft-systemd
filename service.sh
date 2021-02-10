@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MINECRAFT_EXEC="java -server -Xms$MINECRAFT_XMS -Xmx$MINECRAFT_XMX -jar /srv/minecraft/$1/server.jar nogui"
+MINECRAFT_EXEC="java -server -Xms$MINECRAFT_XMS -Xmx$MINECRAFT_XMX -jar /srv/minecraft/$1/$MINECRAFT_JAR nogui"
 MINECRAFT_TERM="minecraft-$1"
 
 if [[ "$2" == "start" ]]
