@@ -6,13 +6,7 @@ MINECRAFT_TERM="minecraft-$1"
 if [[ "$2" == "start" ]]
 then
     /usr/bin/screen -DmS "$MINECRAFT_TERM" $MINECRAFT_EXEC
-    exit 0
-fi
-
-if [[ "$2" == "reload" ]]
-then
-    /usr/bin/screen -p 0 -S "$MINECRAFT_TERM" -X stuff "reload\\015"
-    exit 0
+    exit 1
 fi
 
 if [[ "$2" == "stop" ]]
@@ -29,4 +23,4 @@ then
 fi
 
 echo "$0: Invalid operand $2"
-exit 1
+exit 2

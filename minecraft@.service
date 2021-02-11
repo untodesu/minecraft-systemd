@@ -26,7 +26,6 @@ EnvironmentFile=-/srv/minecraft/%i/environment.conf
 WorkingDirectory=/srv/minecraft/%i
 
 ExecStart=/srv/minecraft/service.sh %i start
-ExecReload=/srv/minecraft/service.sh %i reload
 ExecStop=/srv/minecraft/service.sh %i stop
 
 RemainAfterExit=yes
